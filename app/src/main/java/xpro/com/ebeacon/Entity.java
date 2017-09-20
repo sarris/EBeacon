@@ -6,7 +6,7 @@ package xpro.com.ebeacon;
 public class Entity {
     private String name;
     private String address;
-
+    private String me;
     private String buscode;
 
     public String getBuscode() {
