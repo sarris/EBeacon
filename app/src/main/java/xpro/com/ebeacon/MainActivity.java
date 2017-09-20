@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
         registerReceiver(receiver, intentFilter);
         // 寻找蓝牙设备，android会将查找到的设备以广播形式发出去
         mBluetoothAdapter.startDiscovery();
+        //我改了点东西
+        Log.e("say","say hello");
     }
 
 
